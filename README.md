@@ -13,6 +13,15 @@ This is a humble step from our side hoping to bring our world to normalcy with t
 ![Screenshot (15)](https://user-images.githubusercontent.com/43414928/84587772-c638b800-ae3f-11ea-8781-53bc4ec6a47b.png)
 ![Screenshot (16)](https://user-images.githubusercontent.com/43414928/84587775-c9cc3f00-ae3f-11ea-975f-d7846c873dd9.png)
 ![Screenshot (17)](https://user-images.githubusercontent.com/43414928/84587778-ce90f300-ae3f-11ea-895b-8663bdc97bd6.png)
-![Screenshot (18)](https://user-images.githubusercontent.com/43414928/84587779-cfc22000-ae3f-11ea-89ab-fdb0c8c7c68c.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/43414928/84587803-f718ed00-ae3f-11ea-9ee3-b29a2a654710.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/43414928/84587805-f8e2b080-ae3f-11ea-88fa-28e83426ffdc.png)
+![Screenshot (21)](https:/
+![Screenshot (24)](https://user-images.githubusercontent.com/43414928/84587810-00a25500-ae40-11ea-8fed-88cd85684eb4.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/43414928/84587812-01d38200-ae40-11ea-9133-8cc0393e3a70.png)
+
+/user-images.githubusercontent.com/43414928/84587807-faac7400-ae3f-11ea-9e3d-24c5d6c011d1.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/43414928/84587808-fb450a80-ae3f-11ea-8e2d-20c793b48a04.png)
+![Screenshot (23)](https://user-images.githubusercontent.com/43414928/84587809-fe3ffb00-ae3f-11ea-94a7-b34abd39d357.png)
+
 
 ## Doctor Portal
