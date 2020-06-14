@@ -17,7 +17,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -44,23 +45,29 @@
                 &nbsp; &nbsp; &nbsp; &nbsp; <br> &nbsp;&nbsp; &nbsp; &nbsp; Book Appointment</a>
         </li>
 
+           <li class="nav-item">
+            <a class="nav-link" href="/UserviewAppointments">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span
+                    class="glyphicon glyphicon-calendar"></span>
+                &nbsp; &nbsp; &nbsp; &nbsp; <br> &nbsp;&nbsp; &nbsp; &nbsp;View All Appointments</a>
+        </li>
 
-        <div class="dropdown" style="float:right;transform:translateX(600%); z-index:10">
+
+
+        <div class="dropdown" style="float:right;transform:translateX(380%); z-index:10">
             <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
                 <img src="https://img.pngio.com/profile-icon-png-image-free-download-searchpngcom-profile-icon-png-673_673.png"
                      alt="" height="55" width="55">
             </button>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu" style="">
                 <a class="dropdown-item" href="/profile"> Profile</a>
                 <a class="dropdown-item" href="/editProfile"> Edit Profile</a>
                 <a class="dropdown-item" href="/medicines">Add medication</a>
                 <a class="dropdown-item" href="/diseases">Add disease history</a>
-                <a class="dropdown-item" href="/UserviewAppointments">View Appointments</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#"> Settings</a>
                 <a class="dropdown-item" href="#"> Help</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/logout"> &nbsp Login out</a>
+                <a class="dropdown-item" href="/logout"> &nbsp Log out</a>
             </div>
         </div>
     </ul>
