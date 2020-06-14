@@ -1,19 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
 
-        <h1>History</h1>
-        <form class="" action="" method="post">
-            <label >Description</label>
-            <input type="text" name="desc" id="desc">
+<h1>History</h1>
+<form class="" action="" method="post">
+    <div class="form-group">
+       Chronic disease name: <input type="text" name="desc" id="desc" class="form-control">
+    </div>
 
-            <br>
-            <label>Allergies</label>
-            <input type="text" value="" name="allergy" id="allergy">
-            <br>
+    <div class="form-group">
+      Dose :  <input type="text" value="" name="allergy" id="allergy" class="form-control">
+    </div>
 
-            <br>
-            <input type="submit" value="Update">
-        </form>
+
+    <br>
+
+      <button type="submit" class="btn btn-dark text-center" >Add</button>
+
+</form>
 
 
 {% endblock %}

@@ -1,22 +1,39 @@
 {% extends "layout.html" %}
 {% block content %}
 
+
+<div class="row">
+      <div class="col-4">
+          <br>
+        <img src="https://image.freepik.com/free-vector/online-doctor-concept_23-2148508373.jpg" alt="">
+    </div>
+    <div class="col-1"></div>
+    <div class="col-6">
         <h1>Medicine</h1>
         <form class="" action="" method="post">
-            <label >Name</label>
-            <input type="text" name="name" id="name">
 
-            <br>
-            <label>Dose</label>
-            <input type="text" value="" name="dose" id="dose">
-            <br>
+    <div class="form-group">
+        <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name">
+    </div>
 
 
-            <input type="radio" name="medicine" id="on-going" value="on-going"> On going </input>
-            <input type="radio" name="medicine" id="past" value="past"> Past </input><br>
-            <br>
-            <input type="submit" value="add">
-        </form>
+    <div class="form-group">
+        <input type="text" class="form-control" id="dose" name="dose" placeholder="Enter dose">
+    </div>
+
+    <br>
 
 
+    <input type="radio" name="medicine" id="on-going" value="on-going"> On going </input>
+    <input type="radio" name="medicine" id="past" value="past"> Past </input><br>
+    <br>
+    <button type="submit" class="btn btn-dark text-center" style="float:right">Add</button>
+
+
+</form>
+
+
+    </div>
+
+</div>
 {% endblock %}

@@ -2,11 +2,12 @@
 {% block content%}
 
 <div class="row">
-
-    <div class="col-12">
+    <div class="col-4">
+        <img src="https://img.freepik.com/free-vector/appointment-booking-calendar-design_23-2148570786.jpg?size=338&ext=jpg"
+             alt="">
+    </div>
+    <div class="col-8">
         <h1>Book appointment</h1>
-
-
 
         <form action="" method="post">
             <div class="form-group">
@@ -17,7 +18,7 @@
                 <input type="text" name="department" class="form-control" placeholder="Enter department">
             </div>
 
-
+            <br>
             <div class="row">
                 <div class="col-6">
                     <input id="datepicker" name="date" width="270" placeholder="Pick the date"/>
@@ -28,20 +29,27 @@
                            placeholder="Pick the time">
                 </div>
             </div>
+            <br>
+            <input type="radio" name="mode" id="offline" value="offline" class="text-center"> Offline </input>
+            <input type="radio" name="mode" id="online" value="online" class="text-center">  Online </input><br>
+            <br>
 
-            <input type="radio" name="mode" id="offline" value="offline"> offline </input>
-            <input type="radio" name="mode" id="online" value="online"> online </input><br>
+            <hr>
+            <button type="submit" class="btn btn-dark text-center" id="appointment" style="float:right">Book now</button>
 
-            <button type="submit" class="btn btn-dark text-center">Add</button>
         </form>
+
     </div>
 
 </div>
 <!--Script-->
+
+
 <script src="Scripts/ClockPicker.js"></script>
 <script>
    $('.timepicker').timepicker({
      });
+
 
 
 </script>
@@ -50,6 +58,10 @@
         $('#datepicker').datepicker({
             uiLibrary: 'bootstrap'
         });
+
+
+
+
 
 
 
