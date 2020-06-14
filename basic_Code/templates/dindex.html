@@ -2,31 +2,60 @@
 {% block content%}
 
 
-<h1>Upcoming Consulation</h1>
+<h1 style=" text-shadow: 1px 1px 3px #dee2e6;">Upcoming Consulation</h1>
+<br><br>
+{% for i in myAppointments %}
 
+<div class="row">
+    <div class="col-12">
+        <table class="table table-striped table-hover">
+            <thead>
+            <th scope="col">No</th>
+            <th scope="col">Patient Name</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Mode</th>
+            <th scope="col">Status</th>
+            </thead>
+            <tbody>
+            <tr>
+                {% for i in myAppointments %}
 
+                <th scope="row">{{i.id}}</th>
+                <td> {{i.createdby_name}}</td>
+                <td>{{i.date}}</td>
+                <td>{{i.time}}</td>
+                <td>{{i.mode}}</td>
+                <td>{{i.status}}</td>
+                <td>
+                    <button type="submit" class="btn btn-dark " value="{{ i.createdby_id }}">
+                    <a href="{{ url_for('doc_view_history', id=i.createdby_id) }}"> View history</a>
+                </button>
+                </td>
 
+                <td>
+                    <button type="submit" class="btn btn btn-info" value="{{ i.createdby_id }}">
+                    <a href="{{ url_for('feedback', id=i.createdby_id) }}"> Give feeback</a>
+                </button>
+                </td>
 
-        {% for i in myAppointments %}
-<div class="row index">
-    <div class="col-3">
-        Patient {{ i.createdby_name }}
-        <hr>
-        <br>
-        Date: {{i.date}} <br>
-        Time: {{i.time}} <br> Mode : {{i.mode}} <br>
-        <button type="submit" class="btn btn-dark " value="{{ i.createdby_id }}">
-            <a href="{{ url_for('doc_view_history', id=i.createdby_id) }}"> View history</a>
-        </button>
+            </tr>
+            {% endfor %}
 
-        <button type="submit" class="btn btn btn-info" value="{{ i.createdby_id }}">
-            <a href="{{ url_for('feedback', id=i.createdby_id) }}"> Give feeback</a>
-        </button>
+            <tr>
+
+            </tr>
+
+            </tbody>
+        </table>
+
     </div>
+
 </div>
+<br>
+<hr>
 
 
 {% endfor %}
-
 
 {% endblock%}
