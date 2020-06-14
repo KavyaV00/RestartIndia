@@ -1,28 +1,39 @@
 {% extends "layout.html" %}
 {% block content %}
-<div style="background:url('https://img.freepik.com/free-vector/medicine-elements-background-flat-style_23-2147769343.jpg?size=338&ext=jpg');background-repeat:no-repeat;margin:0;padding:0; height: 100vh;">
-    <h1>Medicine</h1>
-    <form class="" action="" method="post">
-
-        <div class="form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name">
-        </div>
-
-        <br>
-        <div class="form-group">
-            <input type="text" class="form-control" id="dose" name="dose" placeholder="Enter dose">
-        </div>
-
-        <br>
 
 
-        <input type="radio" name="medicine" id="on-going" value="on-going"> On going </input>
-        <input type="radio" name="medicine" id="past" value="past"> Past </input><br>
-        <br>
-         <button type="submit" class="btn btn-dark text-center" >Add</button>
+<div class="row">
+      <div class="col-4">
+          <br>
+        <img src="https://image.freepik.com/free-vector/online-doctor-concept_23-2148508373.jpg" alt="">
+    </div>
+    <div class="col-1"></div>
+    <div class="col-6">
+        <h1>Medicine</h1>
+        <form class="" action="" method="post">
+
+    <div class="form-group">
+        <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name">
+    </div>
 
 
-    </form>
+    <div class="form-group">
+        <input type="text" class="form-control" id="dose" name="dose" placeholder="Enter dose">
+    </div>
+
+    <br>
+
+
+    <input type="radio" name="medicine" id="on-going" value="on-going"> On going </input>
+    <input type="radio" name="medicine" id="past" value="past"> Past </input><br>
+    <br>
+    <button type="submit" class="btn btn-dark text-center" style="float:right">Add</button>
+
+
+</form>
+
+
+    </div>
+
 </div>
-
 {% endblock %}
