@@ -25,3 +25,19 @@ This is a humble step from our side hoping to bring our world to normalcy with t
 
 
 ## Doctor Portal
+
+
+![Screenshot (28)](https://user-images.githubusercontent.com/43414928/84587852-727a9e80-ae40-11ea-907b-9ff7b787ba1c.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/43414928/84587853-74446200-ae40-11ea-8c34-e019667c1ba2.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/43414928/84587854-74dcf880-ae40-11ea-8d23-49d4219527d6.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/43414928/84587855-75758f00-ae40-11ea-9cdd-2e7e26e50f2b.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/43414928/84587856-760e2580-ae40-11ea-8455-03decc359a4d.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/43414928/84587857-773f5280-ae40-11ea-99f7-fb08d56196cc.png)
+
+
+
+
+
+
+![Screenshot (27)](https://user-images.githubusercontent.com/43414928/84587849-6c84bd80-ae40-11ea-863d-ca54d264fefd.png)
+
